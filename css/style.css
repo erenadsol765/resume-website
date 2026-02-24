@@ -1,0 +1,93 @@
+body{
+    margin:0;
+    font-family:'Inter', sans-serif;
+    color:var(--text);
+    background:#668db3;
+    line-height:1.7;
+}
+
+/* Header */
+header{
+    background:#0f2f4e;
+    padding:20px;
+    text-align:center;
+}
+
+nav a{
+    color:#ffffff;
+    margin:0 15px;
+    text-decoration:none;
+    font-weight:bold;
+    font-family: "Poppins", sans-serif;
+}
+
+nav a:hover{
+    color:white;
+}
+
+/* Sections */
+section{
+    padding:40px;
+    border-bottom:1px solid #1156eb;
+}
+
+/* Profile image */
+#about img{
+    border-radius:50%;
+    margin:15px 0;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:20px;
+    background:#0f2f4e;
+;
+}
+@media (max-width:768px){
+
+    nav{
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+    }
+
+    section{
+        padding:20px;
+    }
+
+    #about img{
+        width:140px;
+    }
+}
+/* Headings Typography */
+h1, h2, h3{
+    font-family:'Playfair Display', serif;
+    letter-spacing:0.3px;
+    color:#ffffff
+}
+
+h1{
+    font-size:2.3rem;
+}
+
+h2{
+    font-size:1.6rem;
+    margin-bottom:10px;
+}
+.section{
+    padding:30px 0;
+}
+
+p{
+    color:#0f2f4e;
+    font-size:20.5px;
+}
+a{
+    color:#261049;
+    font-size:18px;
+}
+C{
+    color:#ffffff;
+    font-size:18px;
+}
